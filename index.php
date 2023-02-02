@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portofolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <!-- my css -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body id="home">
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Farjihan Arlin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#galery">Galery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- akhir navbar -->
+
+  <!-- Jumbotron -->
+
+  <section class="jumbotron text-center">
+    <img src="./img/airMancurPuloSimo.png" alt="foto profil" width="200" class="rounded-circle img-thumbnail">
+    <h1 class="display-4">Farjihan Arlin</h1>
+    <p class="lead">Mahasiswa | Enginering</p>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1" d="M0,0L18.5,10.7C36.9,21,74,43,111,48C147.7,53,185,43,222,85.3C258.5,128,295,224,332,218.7C369.2,213,406,107,443,80C480,53,517,107,554,149.3C590.8,192,628,224,665,245.3C701.5,267,738,277,775,277.3C812.3,277,849,267,886,240C923.1,213,960,171,997,181.3C1033.8,192,1071,256,1108,240C1144.6,224,1182,128,1218,85.3C1255.4,43,1292,53,1329,85.3C1366.2,117,1403,171,1422,197.3L1440,224L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"></path>
+    </svg>
+  </section>
+
+  <!-- akhir jumbotron -->
+
+  <!-- about -->
+
+  <section id="about">
+    <div class="container">
+      <div class="row text-center mb-4">
+        <div class="col">
+          <h2>About Me</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center fs-5 text-center">
+        <div class="col-md-4">
+          <p>Nama saya adalah Farjihan arlin. saya lahir dan besar di kota Perawang, kab.siak, provinsi Riau.
+            hobi saya ada banyak tergantung keadaan :), yaitu terkadang memancing, menembak, jalan jalan, dan lainya.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <p>Pendidikan Terakhir adalah Smk jurusan TSM(Teknik sepeda motor). dan sekarang sedang menjadi mahasiswa di STMIK AMIK RIAU</p>
+        </div>
+      </div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#e2edff" fill-opacity="1" d="M0,0L18.5,10.7C36.9,21,74,43,111,48C147.7,53,185,43,222,85.3C258.5,128,295,224,332,218.7C369.2,213,406,107,443,80C480,53,517,107,554,149.3C590.8,192,628,224,665,245.3C701.5,267,738,277,775,277.3C812.3,277,849,267,886,240C923.1,213,960,171,997,181.3C1033.8,192,1071,256,1108,240C1144.6,224,1182,128,1218,85.3C1255.4,43,1292,53,1329,85.3C1366.2,117,1403,171,1422,197.3L1440,224L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"></path>
+    </svg>
+
+  </section>
+
+  <!-- akhir about -->
+
+
+  <!-- galeri -->
+
+  <section id="galery" style="background-color: #e2edff ;">
+
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <h2>My Galery</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="./img/photoProfil.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">foto di kebun orang di belakang rumah ;)</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="./img/lembahAnai.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">foto di lembah Anai setelah tes sbmptn di unp padang 'tapi gagal ;( '</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="./img/airMancurPuloSimo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Foto ketika jalan jalan ke air mancur PULO SIMO</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1" d="M0,128L18.5,133.3C36.9,139,74,149,111,165.3C147.7,181,185,203,222,224C258.5,245,295,267,332,240C369.2,213,406,139,443,96C480,53,517,43,554,80C590.8,117,628,203,665,224C701.5,245,738,203,775,202.7C812.3,203,849,245,886,256C923.1,267,960,245,997,208C1033.8,171,1071,117,1108,85.3C1144.6,53,1182,43,1218,58.7C1255.4,75,1292,117,1329,112C1366.2,107,1403,53,1422,26.7L1440,0L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"></path>
+    </svg>
+  </section>
+
+  <!-- akhir galer -->
+
+  <!-- contact -->
+
+  <section id="contact">
+
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Contact Me</h2>
+        </div>
+      </div>
+
+
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+            <strong>Terima kasih</strong> pesan anda telah terkirim....
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          <form name="submit-to-google-sheet">
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="name" aria-describedby="name" required name="nama">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
+            </div>
+            <div class="mb-3">
+              <label for="noHp" class="form-label" required>No Handphone</label>
+              <input type="number" class="form-control" id="noHp" aria-describedby="NoHp" name="noHp">
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label" required>Pesan</label>
+              <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mb-5 btn-kirim">Kirim</button>
+            <button class="btn btn-primary d-none btn-loading" type="button" disabled>
+              <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+              Loading...
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#0d6efd" fill-opacity="1" d="M0,192L18.5,186.7C36.9,181,74,171,111,176C147.7,181,185,203,222,202.7C258.5,203,295,181,332,160C369.2,139,406,117,443,122.7C480,128,517,160,554,144C590.8,128,628,64,665,80C701.5,96,738,192,775,202.7C812.3,213,849,139,886,112C923.1,85,960,107,997,101.3C1033.8,96,1071,64,1108,80C1144.6,96,1182,160,1218,208C1255.4,256,1292,288,1329,266.7C1366.2,245,1403,171,1422,133.3L1440,96L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"></path>
+    </svg>
+
+    <marquee bgcolor=red behavior=alternate scrolldelay=100>*************** <a href="https://www.instagram.com/farjihan_arlin/" class="text-light" style="text-decoration: none;">- Farjihan Arlin -</a> ***************</marquee>
+  </section>
+
+  <!-- akhir contact -->
+
+  <!-- footer -->
+  <footer class="bg-primary text-light text-center pb-3">
+
+    <p>Created with <i class="bi bi-balloon-heart text-danger"></i> by <a href="https://www.instagram.com/farjihan_arlin/" class="text-light fw-bold" style="text-decoration: none;">Farjihan</a></p>
+
+  </footer>
+
+  <!-- footer -->
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+  </script>
+
+  <script src="./script.js">
+  </script>
+</body>
+
+</html>
